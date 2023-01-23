@@ -10,6 +10,8 @@ int main() {
   int ret;
 
   // init_cc(0);
+    printk("go = %d\n", 42);
+
 
   for (;;) {
     run_benchmark();
